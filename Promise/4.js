@@ -56,6 +56,7 @@ const promise3 = new Promise((resolve, reject) => {
 });
 
 function firstStep(id) {
+  console.log(this);
   throw new Error(`Promise ${id} Error`);
 }
 
