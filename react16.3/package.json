@@ -1,0 +1,33 @@
+{
+  "name": "react16.3",
+  "version": "1.0.0",
+  "description": "react16.3 create by Pyros",
+  "author": "BlackGanglion",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-react": "^7.1.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "react": "16.3.0-alpha.1",
+    "react-dom": "16.3.0-alpha.1"
+  },
+  "engines": {
+    "install-node": "6.9.4"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "projectType": "baseReact",
+  "installMethod": "ayarn",
+  "port": 8080
+}
