@@ -12,6 +12,12 @@ const promise = new Promise((resolve, reject) => {
   resolve(1);
 }).then(data => {
   console.log(data);
+  const promiseNest = new Promise((resolve, reject) => {
+    console.log('Promise nest constructor');
+    resolve('nest');
+  }).then(data => {
+    console.log(data);
+  });
 });
 
 Promise.resolve(function () {

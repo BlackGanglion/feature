@@ -21,20 +21,27 @@ class HelloMessage extends React.Component {
   }
 }
 
-for (let i = 0; i < 1000000000; i++) { }
+// for (let i = 0; i < 1000000000; i++) { }
 
-ReactDOM.render(<HelloMessage name="John" />, document.getElementById('main'))
+// ReactDOM.render(<HelloMessage name="John" />, document.getElementById('main'));
+
+
+setTimeout(() => {
+  ReactDOM.render(<HelloMessage name="John" />, document.getElementById('main'));
+}, 1000);
 
 const script = document.createElement('script');  
 script.setAttribute("type","text/javascript");  
 script.src = './public/add.js';  
 document.body.appendChild(script);
 
+/*
 setTimeout(() => {
   const script = document.createElement('script');  
   script.setAttribute("type","text/javascript");  
   script.src = './public/add.js';  
   document.body.appendChild(script);
 }, 2000);
+*/
 
 console.log(`app.js end: ${new Date().getTime()}`);
